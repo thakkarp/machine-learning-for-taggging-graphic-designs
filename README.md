@@ -25,17 +25,23 @@ Please read the [project overview](PROJECT.md) before continuing. It contains de
             validation/
               val.rec
             output/
-  3. A notebook instance in sagemaker with one file called [file]()
+  3. A notebook instance in sagemaker with three files called train tune and deploy.
 
 ## Usage
 
-Now that you have everything in place you are ready to train, tune and deploy the model. 
+Now that you have everything in place you are ready to train, tune and deploy the model.
 
 ### Training
 
+To train a model a fixed set of hyper-parameters open the file train.ipynb in the notebook instance and follow the instructions.
+
 ### Tuning
 
+To utilize sagemakers hyper-parameter tuning feature and train multiple models with ranges of hyper-parameters in order to find the best ones open tune.ipynb in the notebook instance and follow the instructions.
+
 ### Deploying
+
+To deploy a trained model to an endpoint open deploy.ipynb and follow the instructions.
 
 ## Additional Resources
 
