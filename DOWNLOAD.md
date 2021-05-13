@@ -1,0 +1,2 @@
+# Downloading the Data
+This data set consists of two files: train.rec and val.rec. Recordio data format to significantly reduce training time. Check out the [official documentation](http://mesos.apache.org/documentation/latest/recordio/) for more information.
