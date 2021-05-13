@@ -21,7 +21,7 @@ Download the dataset [here]().
 
 ### About the Data
 
-For more information about the format and creation of our dataset in see our [dataset documentation](DATASET.md).
+For more information about the format and creation of our dataset in see our [project overview](PROJECT.md).
 
 ## 2. Log in to AWS
 
@@ -121,7 +121,7 @@ With the training and validation data in the right spot you are now ready to cre
         
         upload
     
-    - Find the file [test.ipynb](test.ipynb) and upload it
+    - Upload the files train.ipynb tune.ipynb and deploy.idynb to the notebook instance.
   
 **NOTE**: make sure you stop the instance when you aren't using it, or you will be charged for the time it sits idle.
   
