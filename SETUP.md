@@ -39,7 +39,7 @@ After you sign in to your AWS account you will be brought to the AWS management 
 ## 3. Upload the dataset
 
 ### Create a Bucket
-- From the console select:
+- From the AWS console select:
         
         services->S3
 
@@ -57,7 +57,7 @@ After you sign in to your AWS account you will be brought to the AWS management 
   - *training* 
   - *validation*
   - *output*
-- Navigate into the training folder select:
+- Navigate into the training folder and select:
         
         Upload
   - Find the **train.rec** file and wait until it uploads
@@ -66,7 +66,7 @@ After you sign in to your AWS account you will be brought to the AWS management 
         Upload
   -  Find the **val.rec** file and wait until it uploads
 
-You should now have a bucket named *multi-label-data* with the following structure:
+You should now have an S3 bucket named *multi-label-data* with the following structure:
 
         multi-label-data/
             training/
@@ -81,7 +81,7 @@ With the training and validation data in the right spot you are now ready to cre
 
 ### Create a new Notebook Instance
 
-- From the console select: 
+- From the AWS console select: 
         
         Services->Amazon Sagemaker
 
@@ -111,7 +111,7 @@ With the training and validation data in the right spot you are now ready to cre
 - When the instance is ready select:
   
         start 
-  - Wait until it says **open jypter**
+  - Wait until it says **open jupyter**
 - Select: 
         
         open jupyter 
@@ -121,8 +121,8 @@ With the training and validation data in the right spot you are now ready to cre
         
         upload
     
-    - Upload the files train.ipynb tune.ipynb and deploy.idynb to the notebook instance.
+    - Upload the files train.ipynb tune.ipynb and deploy.ipynb to the notebook instance.
   
 **NOTE**: make sure you stop the instance when you aren't using it, or you will be charged for the time it sits idle.
   
-Now you should be ready to go! Head back to README.md to see whats next.
+Now you should be ready to go! Head back to [README.md](README.md) to see whats next.

@@ -31,9 +31,11 @@ Please read the [project overview](PROJECT.md) before continuing. It contains de
 
 Now that you have everything in place you are ready to train, tune and deploy the model.
 
+Open the sagemaker notebook instance you created to begin.
+
 ### Training
 
-To train a model a fixed set of hyper-parameters open the file train.ipynb in the notebook instance and follow the instructions.
+To train a model with a fixed set of hyper-parameters open the file train.ipynb in the notebook instance and follow the instructions.
 
 ### Tuning
 
@@ -41,7 +43,7 @@ To utilize sagemakers hyper-parameter tuning feature and train multiple models w
 
 ### Deploying
 
-To deploy a trained model to an endpoint open deploy.ipynb and follow the instructions.
+To deploy a trained model to an endpoint open deploy.ipynb in the notebook instance and follow the instructions.
 
 ## Additional Resources
 
