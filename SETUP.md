@@ -46,14 +46,15 @@ After you sign in to your AWS account you will be brought to the AWS management 
 - Select the button labeled:
         
         Create bucket
-- Name the bucket *multi-label-data*
+- Name the bucket *sagemaker-multi-label-data*
 - Choose an AWS region and be sure to remember it
 - Scroll to the bottom and select the button labeled: 
   
         Create bucket
 
 ### Upload Files to Bucket
-- Navigate into the bucket you just made and create three folders named:
+- Navigate into the bucket you created and create a folder named: *ic-multi-label*
+- Navigate into *ic-multi-label* create three folders named:
   - *training* 
   - *validation*
   - *output*
@@ -68,13 +69,14 @@ After you sign in to your AWS account you will be brought to the AWS management 
 
 You should now have an S3 bucket named *multi-label-data* with the following structure:
 
-        multi-label-data/
-            training/
-                train.rec
-            validation/
-                val.rec
-            output/
-
+        sagemaker-multi-label-data/
+                ic-multi-label/
+                        training/
+                                train.rec
+                        validation/
+                                val.rec
+                        output/
+                        
 
 ## 4. Create an instance in sagemaker
 With the training and validation data in the right spot you are now ready to create a sagemaker instance. Within this instance you will be able to train and deploy the model. See the [official Sagemaker documentation](https://docs.aws.amazon.com/sagemaker/index.html) to learn more about the service.

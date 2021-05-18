@@ -17,14 +17,15 @@ Please read the [project overview](PROJECT.md) before continuing. It contains de
 ## Getting Started
   Follow the [set-up instructions](SETUP.md). After completing these steps you should have the following:
   1. An AWS account
-  2. An S3 Bucket named *multi-label-data* with the following structure:
+  2. An S3 Bucket named *sagemaker-multi-label-data* with the following structure:
       
-          multi-label-data/
-            training/
-              train.rec
-            validation/
-              val.rec
-            output/
+          sagemaker-multi-label-data/
+                ic-multi-label/
+                        training/
+                                train.rec
+                        validation/
+                                val.rec
+                        output/
   3. A notebook instance in sagemaker with three files called train tune and deploy.
 
 ## Usage
@@ -35,7 +36,7 @@ Open the sagemaker notebook instance you created to begin.
 
 ### Training
 
-To train a model with a fixed set of hyper-parameters open the file train.ipynb in the notebook instance and follow the instructions.
+To train a model once with a fixed set of hyper-parameters open the file train.ipynb in the notebook instance and follow the instructions.
 
 ### Tuning
 
