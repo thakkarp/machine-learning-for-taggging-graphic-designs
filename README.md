@@ -5,6 +5,8 @@
   - [Project Description](#project-description)
   - [Getting Started](#getting-started)
   - [Usage](#usage)
+    - [Training and Tuning](#training-and-tuning)
+    - [Deploying](#deploying)
   - [Additional Resources](#-additional-resources)
 
 
