@@ -123,8 +123,11 @@ With the training and validation data in the right spot you are now ready to cre
         
         upload
     
-    - Upload the files train.ipynb tune.ipynb and deploy.ipynb to the notebook instance.
+    - Upload the following files to the notebook instance:
+      - IC-multi-label/train.ipynb 
+      - IC-multi-label/tune.ipynb 
+      - IC-multi-label/deploy.ipynb
   
 **NOTE**: make sure you stop the instance when you aren't using it, or you will be charged for the time it sits idle.
   
-Now you should be ready to go! Head back to [README.md](README.md) to see whats next.
+Good Job! Head back to [README.md](README.md) to see whats next.
