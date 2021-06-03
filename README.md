@@ -6,6 +6,7 @@
 
 The goal of this project was to train a machine learning model that could accurately predict the tags associated with a graphic design image.
 
+
 ## Getting Started
 
 To understand and work with our project follow these steps:
