@@ -4,7 +4,7 @@
 
 ## Project Description
 
-The goal of this project was to train a machine learning model that could accurately predict the tags associated with a graphic image.
+The goal of this project was to train a machine learning model that could accurately predict the tags associated with a graphic design image.
 
 ## Getting Started
 
